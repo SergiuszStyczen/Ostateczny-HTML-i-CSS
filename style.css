@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+header {
+  background: white;
+}
+
+header h1 {
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  letter-spacing: 120px;
+  padding: 10px;
+}
+
+nav {
+  background: black;
+  height: 78px;
+}
+
+nav ul li {
+  float: left;
+  color: white;
+  list-style-type: none;
+  padding: 30px;
+  margin-left: 240px;
+  letter-spacing: 10px;
+}
+
+nav ul li:hover {
+  animation: font_anim 1s;
+  cursor: pointer;
+}
+
+@keyframes font_anim {
+  from {color: white;}
+  to {color: #808080;}
+}
+
+.main_anim {
+  background: white;
+}
+
+.main_anim h1 {
+  text-align: center;
+  font-size: 90px;
+  margin-top: 320px;
+  letter-spacing: 50px;
+  word-spacing: 70px;
+  animation: intro_anim 2s;
+  animation-timing-function: linear;
+  opacity: 1;
+}
+
+@keyframes intro_anim {
+    0% {opacity: 0;
+    letter-spacing: 10px;
+    word-spacing: 20px;}
+    25% {opacity: .2;
+      letter-spacing: 20px;
+      word-spacing: 30px;}
+    50% {opacity: .5;
+      letter-spacing: 30px;
+      word-spacing: 45px;}
+    75% {opacity: .7;
+      letter-spacing: 40px;
+      word-spacing: 60px;}
+    100% {opacity: 1;
+          letter-spacing: 50px;
+          word-spacing: 70px;}
+}
+
+.hr {
+  width: 50%;
+  background: black;
+  margin-top: 430px;
+}
+
+
+.art_left {
+  text-align: center;
+  width: 50%;
+  height: 400px;
+  background: black;
+  color: white;
+  float: left;
+}
+
+.art_left h1 {
+    font-size: 30px;
+    padding: 50px;
+    letter-spacing: 20px;
+}
+
+.art_left p {
+  width: 50%;
+  margin-left: 220px;
+
+}
+
+.art_right {
+  text-align: center;
+  width: 50%;
+  height: 400px;
+  background:#DCDCDC;
+  color: black;
+  float: right;
+}
+
+.art_right h1 {
+    font-size: 30px;
+    padding: 50px;
+    letter-spacing: 20px;
+}
+
+.art_right p {
+  width: 50%;
+  margin-left: 220px;
+}
+
+.art_left_bot {
+  text-align: center;
+  width: 50%;
+  height: 400px;
+  background: #DCDCDC;
+  color: black;
+  float: left;
+}
+
+.art_left_bot h1 {
+    font-size: 30px;
+    padding: 50px;
+    letter-spacing: 20px;
+}
+
+.art_left_bot p {
+  width: 50%;
+  margin-left: 220px;
+}
+
+.art_right_bot {
+  text-align: center;
+  width: 50%;
+  height: 400px;
+  background:black;
+  color: white;
+  float: right;
+}
+
+.art_right_bot h1 {
+    font-size: 30px;
+    padding: 50px;
+    letter-spacing: 20px;
+}
+
+.art_right_bot p {
+  width: 50%;
+  margin-left: 220px;
+
+}
+
+.img_1 img {
+  width: 100%;
+  display: block;
+}
+
+.hr_2 {
+  width: 100%;
+  height: 10px;
+  background: black;
+}
